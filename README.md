@@ -38,14 +38,13 @@ Before you begin, ensure you have met the following requirements:
    git clone https://github.com/rameelafzal/Ecomm.git
 
 2. Install the required Python packages:
-```bash
-pip install -r requirements.txt
+    ```bash
+     pip install -r requirements.txt
 
-
-## Running the API
+Running the API
 To run the API, use the following command:
-```bash
-uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+
+    uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
 The API will be available at http://localhost:8000.
 
